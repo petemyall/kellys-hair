@@ -85,14 +85,19 @@ body {
     }
 
     @media (max-width: 599px) {
+
+      .body {
+       padding: 10px 10px;
+      }
+          
       .profile-pic {
       position: absolute;
       top: 2px;
       right: 10px;
         display: block;
         margin: 0 auto 20px auto;
-        width: 60px;
-      height: 60px;    
+        width: 90px;
+      height: 90px;    
       }
           
       .intro {
