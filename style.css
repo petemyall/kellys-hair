@@ -113,6 +113,8 @@ body {
        }   
           
       h1 {
+        position: fixed;
+        top: 2px;    
         font-size: 2.50rem;
         margin-top: 0;
       }
