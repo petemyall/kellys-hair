@@ -85,7 +85,9 @@ body {
 
     @media (max-width: 599px) {
       .profile-pic {
-        position: static;
+      position: static;
+      top: 2px;
+      right: 10px;
         display: block;
         margin: 0 auto 20px auto;
       }
