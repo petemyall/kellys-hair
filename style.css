@@ -97,9 +97,16 @@ body {
        font-size: 0.9rem;
        margin-bottom: 10px;
       }
+
+       .note {
+      font-size: 0.9rem;
+       }   
           
       h1 {
         font-size: 2.50rem;
         margin-top: 0;
       }
+
+       .footer {
+        margin-top: 50px;     
     }
