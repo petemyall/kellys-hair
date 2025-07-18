@@ -85,10 +85,10 @@ h1 {
     }
 
     footer {
-      margin-top: 150px;
+      margin-top: 175px;
       text-align: center;
       font-size: 0.9rem;
-      color: #575454;
+      color: #262625;
     }
 
     @media (max-width: 599px) {
