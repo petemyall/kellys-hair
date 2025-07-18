@@ -96,12 +96,10 @@ h1 {
       .body {
        padding: 10px 10px;
       }
-          
+      
   .header-bar {
-    flex-direction: row;
-    align-items: center;
-    gap: 14px;
-    padding: 10px 0;
+    gap: 12px;
+    padding-bottom: 10px;
   }
 
   .profile-pic {
@@ -111,9 +109,7 @@ h1 {
 
   h1 {
     font-size: 2rem;
-  }
-      
-          
+  }      
       .intro {
        font-size: 0.9rem;
        margin-bottom: 10px;
