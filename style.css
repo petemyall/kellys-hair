@@ -83,7 +83,7 @@ body {
       color: #777;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 599px) {
       .profile-pic {
         position: static;
         display: block;
@@ -91,6 +91,7 @@ body {
       }
 
       h1 {
+        font-size: 2.50rem;
         margin-top: 0;
       }
     }
