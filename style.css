@@ -129,9 +129,7 @@ h1 {
        } 
             
        .footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        margin-top: 0;
+        position: static;
+        margin-top: 10px;
     }
 }
