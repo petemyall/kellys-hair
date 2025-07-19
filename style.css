@@ -97,6 +97,13 @@ h1 {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
+ .media-box {
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 0;
+   margin: 0;
+  {
       
   .header-bar {
     gap: 12px;
