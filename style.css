@@ -106,6 +106,7 @@ h1 {
   {
       
   .header-bar {
+    font: 10px
     gap: 12px;
     padding-bottom: 10px;
   }
