@@ -1,4 +1,4 @@
-.body {
+body {
       font-family: "Segoe UI", sans-serif;
       background-image: url('images/salon-background.png');
       background-color: rgba(224,182,157,0.3);
@@ -93,7 +93,7 @@ h1 {
 
     @media (max-width: 599px) {
 
-      .body {
+      body {
        padding: 10px 10px;
       }
       
