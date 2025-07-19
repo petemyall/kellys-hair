@@ -1,7 +1,7 @@
 body {
       font-family: "Segoe UI", sans-serif;
       height: 100vh;
-      background-image: url('images/salon-background-mobile.png');
+      background-image: url('images/salon-background.png');
       background-color: rgba(224,182,157,0.3);
       color: #333;
       padding: 30px 20px;
