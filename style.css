@@ -1,6 +1,6 @@
 body {
       font-family: "Segoe UI", sans-serif;
-      background-image: url('images/salon-background.png');
+      background-image: url('images/salon-background-mobile.png');
       background-color: rgba(224,182,157,0.3);
       background-size: cover;
       background-position: center;
@@ -10,7 +10,8 @@ body {
       max-width: 700px;
       margin: auto;
       position: relative;
-      min-height: 100vh;
+      height: 100vh;
+      overflow: hidden;
     }
 .media-container {
   max-width: 700px;
