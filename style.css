@@ -114,6 +114,7 @@ h1 {
        font-size: 0.9rem;
        margin-bottom: 10px;
        max-height: 25vh;
+       border: 3px solid rgba(140, 0, 70,0.5);
        overflow-y: auto;
       }
 
@@ -124,6 +125,7 @@ h1 {
        .note {
       font-size: 0.9rem;
       max-height: 25vh;
+      border: 3px solid rgba(140, 0, 70,0.5);
       padding: 2px;       
        } 
             
