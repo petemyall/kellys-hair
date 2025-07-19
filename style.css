@@ -92,10 +92,10 @@ h1 {
     }
 
     @media (max-width: 599px) {
-
-      body {
-       padding: 10px 10px;
-      }
+  body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
       
   .header-bar {
     gap: 12px;
