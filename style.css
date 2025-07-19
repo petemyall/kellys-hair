@@ -11,6 +11,11 @@ body {
       margin: auto;
       position: relative;
     }
+.media-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px 20px;
+}
 
     .header-bar {
   display: flex;
@@ -98,10 +103,11 @@ h1 {
     background-repeat: no-repeat;
   }
  .media-box {
+   background-color: rgba(255,255,255,0.2);
    position: fixed;
    top: 0;
    left: 0;
-   padding: 0;
+   padding: 10px 10px;
    margin: 0;
   {
       
