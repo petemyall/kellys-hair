@@ -106,7 +106,6 @@ h1 {
   {
       
   .header-bar {
-    font: 10px
     gap: 12px;
     padding-bottom: 10px;
   }
@@ -117,7 +116,7 @@ h1 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 10px;
   }      
       .intro {
        font-size: 1.0rem;
