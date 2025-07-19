@@ -113,7 +113,7 @@ h1 {
       
   .header-bar {
     gap: 12px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
   }
 
   .profile-pic {
