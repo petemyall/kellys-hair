@@ -115,7 +115,6 @@ h1 {
        margin-bottom: 10px;
        max-height: 25vh;
        border: 3px solid rgba(140, 0, 70,0.5);
-       overflow-y: auto;
       }
 
       .buttons {
