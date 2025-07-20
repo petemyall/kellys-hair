@@ -64,7 +64,7 @@ h1 {
     .buttons a {
       background-color: #b30059;
       color: white;
-      padding: 16px 30px;
+      padding: 12px 20px;
       font-size: 1.2rem;
       border: none;
       border-radius: 8px;
@@ -135,6 +135,9 @@ h1 {
       .buttons {
        max-width: 40vw;
        margin-bottom: 8px;
+      }
+      .buttons a {
+      font-size: 0.9px;
       }
 
        .note {
