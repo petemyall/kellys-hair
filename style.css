@@ -87,12 +87,64 @@ h1 {
       line-height: 1.5;
     }
 
-    footer {
+.gallery-header {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #b30059;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-areas:
+        "top-left    top-right"
+        "center      center"
+        "bottom-left bottom-right";
+      grid-gap: 30px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    .frame {
+      background: white;
+      width: 160px;
+      padding: 10px 10px 30px 10px; /* Bottom padding for Polaroid look */
+      border: 1px solid #ccc;
+      box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.25);
+      transform: rotate(var(--angle));
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .frame img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: none;
+    }
+
+    .desc {
+      font-size: 0.85rem;
+      color: #444;
+      margin-top: 10px;
+      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .top-left    { grid-area: top-left;    --angle: -4deg; }
+    .top-right   { grid-area: top-right;   --angle: 5deg; }
+    .center      { grid-area: center;      --angle: 0deg; }
+    .bottom-left { grid-area: bottom-left; --angle: 4deg; }
+    .bottom-right{ grid-area: bottom-right;--angle: -5deg; }
+footer {
       margin-top: 120px;
       text-align: center;
       font-size: 0.9rem;
       color: #262625;
-    }
+}
 
     @media (max-width: 599px) {
   html, body {
