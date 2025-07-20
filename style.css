@@ -89,7 +89,7 @@ h1 {
     }
 
     footer {
-      margin-top: 125px;
+      margin-top: 120px;
       text-align: center;
       font-size: 0.9rem;
       color: #262625;
@@ -133,6 +133,7 @@ h1 {
       }
 
       .buttons {
+       max-width: 45vw;
        margin-bottom: 8px;
       }
 
