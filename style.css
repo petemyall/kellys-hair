@@ -202,6 +202,19 @@ footer {
       border: 3px solid rgba(140, 0, 70,0.5);
       padding: 2px;       
        } 
+          .gallery {
+        grid-template-areas:
+          "top-left"
+          "top-right"
+          "center"
+          "bottom-left"
+          "bottom-right";
+      }
+
+      .frame {
+        width: 80%;
+        margin: auto;
+      }
             
       footer {
         margin-top: 5px;
