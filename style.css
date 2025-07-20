@@ -142,6 +142,7 @@ h1 {
     width: 40%; /* 2 buttons per row, with a little breathing room */
     padding: 12px;
     font-size: 0.9rem;
+    margin-bottom: 8px;
   }
 
        .note {
