@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelly's Styles Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+
+    @media (max-width: 600px) {
+      .gallery {
+        grid-template-areas:
+          "top-left"
+          "top-right"
+          "center"
+          "bottom-left"
+          "bottom-right";
+      }
+
+      .frame {
+        width: 80%;
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2 class="gallery-header">These are some of Kelly’s great styles</h2>
+
+  <div class="gallery">
+    <div class="frame top-left">
+      <img src="style1.jpg" alt="Style 1">
+      <div class="desc">Classic Bob</div>
+    </div>
+    <div class="frame top-right">
+      <img src="style2.jpg" alt="Style 2">
+      <div class="desc">Layered Cut</div>
+    </div>
+    <div class="frame center">
+      <img src="style3.jpg" alt="Style 3">
+      <div class="desc">Bridal Updo</div>
+    </div>
+    <div class="frame bottom-left">
+      <img src="style4.jpg" alt="Style 4">
+      <div class="desc">Beach Waves</div>
+    </div>
+    <div class="frame bottom-right">
+      <img src="style5.jpg" alt="Style 5">
+      <div class="desc">Pixie Crop</div>
+    </div>
+  </div>
+
+</body>
+</html>
