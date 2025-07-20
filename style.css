@@ -1,4 +1,4 @@
-body {
+ubody {
       font-family: "Segoe UI", sans-serif;
       height: 100vh;
       background-image: url('salon-background.png');
@@ -151,8 +151,7 @@ footer {
   margin: 0;
   padding: 0;
   height: 100vh;
-  /* overflow: hidden; */
-  overflow-y: auto;  
+  overflow: hidden;
 }
           
  .media-box {
