@@ -137,13 +137,18 @@ h1 {
        border: 3px solid rgba(140, 0, 70,0.5);
       }
 
-      .buttons {
-       max-width: 30vw;
-       margin-bottom: 8px;
-      }
-      .buttons a {
-      font-size: 0.9rem;
-      }
+       .buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .buttons a {
+    width: 48%; /* 2 buttons per row, with a little breathing room */
+    padding: 12px;
+    font-size: 0.9rem;
+  }
 
        .note {
       font-size: 0.89rem;
