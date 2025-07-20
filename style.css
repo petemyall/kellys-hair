@@ -139,7 +139,7 @@ h1 {
   }
 
   .buttons a {
-    width: calc(45% - 10px); /* 2 buttons per row, with a little breathing room */
+    width: 40%; /* 2 buttons per row, with a little breathing room */
     padding: 12px;
     font-size: 0.9rem;
   }
