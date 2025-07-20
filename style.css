@@ -133,11 +133,11 @@ h1 {
       }
 
       .buttons {
-       max-width: 40vw;
+       max-width: 35vw;
        margin-bottom: 8px;
       }
       .buttons a {
-      font-size: 0.9px;
+      font-size: 0.9rem;
       }
 
        .note {
