@@ -140,7 +140,7 @@ h1 {
     .bottom-left { grid-area: bottom-left; --angle: 4deg; }
     .bottom-right{ grid-area: bottom-right;--angle: -5deg; }
 footer {
-      margin-top: 120px;
+      margin-top: 150px;
       text-align: center;
       font-size: 0.9rem;
       color: #262625;
