@@ -1,9 +1,9 @@
 body {
       font-family: "Segoe UI", sans-serif;
       height: 100vh;
+      background-color: rgba(224,182,157,0.3);
       background-image: url('salon-background.png');
       background-size: cover;
-      background-color: rgba(224,182,157,0.3);
       color: #333;
       padding: 30px 20px;
       margin: auto;
